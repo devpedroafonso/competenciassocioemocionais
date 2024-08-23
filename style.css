@@ -40,7 +40,7 @@ header {
 }
 
 #titulo {
-    color: rgb(255, 255, 255);
+    color: #00c0f5;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -50,6 +50,7 @@ header {
 #titulo i {
     font-size: 25px;
     transition: all 1s ease;
+    color: #00c0f5;
 }
 
 #titulo i:hover {
@@ -58,7 +59,7 @@ header {
 
 #titulo h1 {
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #navegacao nav {
@@ -70,7 +71,7 @@ header {
 #navegacao nav a {
     text-decoration: none;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
 
@@ -86,8 +87,9 @@ header {
 #login button {
     width: 100px;
     height: 30px;
-    background-color: #72939c;
+    background-color: #00c8ff;
     color: white;
+    font-weight: 750;
     border-radius: 8px;
     font-size: 15px;
     border: 2px solid transparent;
@@ -96,56 +98,168 @@ header {
 
 #login button:hover {
     background-color: #dedad7;
-    border: 2px solid #72939c;
-    color: #72939c;
+    border: 2px solid #00c8ff;
+    color: #00c6fd;
 
 }
 
-main {
-    min-height: 72vh;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    height: 71vh;
 }
 
 
 
 
 
-footer {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+   
     background-color: #545c5f;
+    height: 30vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    height: 13vh;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 50px;
+
 }
 
-#fcontainer1 {
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 13px;
-    margin-left: 50px;
+#desenvolvedor{
+
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+
 }
 
-#fcontainer2 {
+.legenda{
+
+font-size: 11px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.texto{
+
+font-size: 15px;
+color:#00c0f5;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+margin-bottom: 7px;
+
+}
+
+#redessociais{
+    display: flex;
+    flex-direction: column;
     gap: 10px;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 9px;
 }
 
-#fcontainer3 i {
-    color: #72939c;
-    font-size: 40px;
-    margin-right: 50px;
-    transition: 0.5 all;
+.redessociais-link {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
 }
 
-#fcontainer3 i:hover{
-    background-color: #dedad7;
-    color: #72939c;
-    border-radius: 8px;
-    transition: all 0.5s ease; 
+.redessociais-link:hover{
+    font-weight: 800;
+}
+
+#redessociais i{
     
+    color: #ffffff;
+    font-size: 25px;
+
 }
 
-  
+.textolink{
+
+    color: #00c0f5;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#contato{
+
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+
+#contato i{
+    
+    color: #ffffff;
+    font-size: 25px;
+
+}
+
+.contato-link{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contato-link:hover{
+
+    font-weight: 700;
+
+}
+
+.textocontato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #00c0f5;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
